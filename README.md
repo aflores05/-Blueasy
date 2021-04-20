@@ -1,1 +1,1 @@
-# -Blueasy
+# Blueasy

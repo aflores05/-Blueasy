@@ -3,7 +3,98 @@
 @import 'media-queries';
 
 body{
-    margin: 0;
+    font-family: 'NotoItalic';
+}
+
+h1{
+    text-align: center;
+}
+
+.container-fluid{
+    padding:0;
+}
+
+.top-nav{
+    position: relative;
+    right: 15em;
+    padding: .40em;
+    margin: 2em;
+    float: right;
+}
+
+.top-bar{
+    position: fixed;
+    width: 100%;
+    opacity: 85%;
+    font-family: 'Notobold';
+    background: $dark-bg;
+}
+
+.top-link{
     padding: 0;
-    background: #efefee;
+    margin: 0 1.5em;
+    text-decoration: none;
+    font-size: 1em;
+    color: $white-copy;
+}
+
+.top-line{
+    display: inline;
+}
+
+.logo{
+    display: block;
+    position: relative;
+    top: .71em;
+    right: -9em;
+    padding: 0.5em 0;
+    margin: 0;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.img-background{
+    padding: 13em 0;
+    background: url(../imgs/header.jpg);
+    background-position: center;
+    background-size: cover
+}
+
+.tittle{
+    text-align: center;
+    color: $white-copy;
+}
+
+.services-section{
+    background: #4bcaff
+}
+
+.bar{
+    width: 100%;
+    font-family: 'Notobold';
+}
+
+.medium-nav{
+    position: relative;
+    right: 15em;
+    padding: .40em;
+    margin: 2em;
+    float: right;
+}
+
+.medium-link{
+    padding: 0;
+    margin: 0 1.5em;
+    text-decoration: none;
+    font-size: 1em;
+    color: $dark-bg;
+}
+
+.portfolio{
+    position: relative;
+    right: -9em;
+    padding: 1.3em 0;
+    margin: 0;
+    font-size: 1.5em;
+    text-decoration: none;
 }

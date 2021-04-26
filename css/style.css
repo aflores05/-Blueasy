@@ -30,11 +30,32 @@ body {
 }
 
 h1 {
+  width: 100%;
+  padding: 5em 0 3em 0;
+  font-family: "NotoLight";
+  color: #fff;
+  font-size: 2.4em;
   text-align: center;
+  line-height: 2em;
+}
+
+h2 {
+  font-family: "NotoLight";
+  padding: 0.8em 0;
+}
+
+h3 {
+  font-family: "NotoBold";
+  padding: 0.5em 0;
 }
 
 .container-fluid {
   padding: 0;
+}
+
+.row {
+  width: 100%;
+  margin: 0;
 }
 
 .top-nav {
@@ -48,7 +69,7 @@ h1 {
 .top-bar {
   position: fixed;
   width: 100%;
-  opacity: 85%;
+  opacity: 70%;
   font-family: "Notobold";
   background: #353f46;
 }
@@ -74,6 +95,11 @@ h1 {
   margin: 0;
   font-size: 1.5em;
   text-decoration: none;
+  color: #fff;
+}
+
+.blue {
+  color: #4bcaff;
 }
 
 .img-background {
@@ -84,12 +110,19 @@ h1 {
 }
 
 .tittle {
-  text-align: center;
-  color: #fff;
+  padding: 0 0.5em;
+  margin: 0;
+  background: #353f46;
 }
 
 .services-section {
+  padding: 2em 13em;
   background: #4bcaff;
+  color: #fff;
+}
+
+.services-paragraph {
+  font-family: "NotoRegular";
 }
 
 .bar {
